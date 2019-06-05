@@ -72,18 +72,30 @@
   clear:both;
 } */
 
+/*teaser-list*/
+
+
 /*teaser*/
 .c-teaser{
-  width:100%;
-  float:left;
+  /* width:100%;
+  float:left; */
   margin-bottom: 50px;
+}
+
+.element{
+  height:200px;
 }
 
 @media screen and (min-width: 600px) {
   .c-teaser{
-    width: calc(100% / 3);
+    /* width: calc(100% / 3); */
     margin-bottom: 30px;
   }
+}
+
+.teaser_img{
+  width:100%;
+
 }
 
 /* FOOTER */
