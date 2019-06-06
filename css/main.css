@@ -98,6 +98,21 @@
 
 }
 
+.c_teaser{
+  width:100%;
+}
+
+@media screen and (min-width:600px){
+  .c_teaser{
+    width:50%;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .c_teaser{
+    width:33%;
+  }
+}
 /* FOOTER */
 .r-footer {
    max-width: 900px;
