@@ -14,7 +14,8 @@
 
 /* HEADER */
 .r-header {
-  max-width: 900px;
+  /* max-width: 900px; */
+  width:100%;
   margin: 0 auto;
 }
 
@@ -49,6 +50,15 @@
 
 .navbar-collapse {
   display: none;
+}
+
+.main-navigation__list-link{
+  text-decoration: none;
+  color:black;
+}
+
+.carousel-item>img{
+  height: 600px;
 }
 
 /* MAIN */
@@ -104,18 +114,20 @@
 
 @media screen and (min-width:600px){
   .c_teaser{
-    width:50%;
+    width:100%;
   }
+
 }
 
 @media screen and (min-width:1000px){
   .c_teaser{
-    width:33%;
+    width:50%;
   }
 }
 /* FOOTER */
 .r-footer {
-   max-width: 900px;
+   /* max-width: 900px; */
+   width:100
   margin: 0 auto;
   background: lightgray;
   padding: .5rem 1rem;
